@@ -1,15 +1,15 @@
 from mnist_gan_yihui_00.load import *
+from mnist_gan_yihui_00.train import run_yihui_model
+
+
+def yihui_gan():
+    run_yihui_model()
 
 
 
 def main():
     print('Running . . . ')
-
-    trX, teX, trY, teY = mnist()
-
-
-
-
+    yihui_gan()
     print('end')
 
 
